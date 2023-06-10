@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "interpyter"
+version = "0.1.0"
+description = "An implementation of the Lox programming language."
+authors = [
+    "Shane Murphy <shane.everitt.murphy@gmail.com>",
+    "Adam Woods <adamdotwoods@gmail.com>"
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.3.0"
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
